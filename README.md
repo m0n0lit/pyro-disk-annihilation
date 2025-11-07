@@ -1,4 +1,4 @@
-# Pyro Disk Annihilation                                   
+<# Pyro Disk Annihilation                                   
 
 Advanced disk sanitation utility implementing multiple data destruction protocols for Linux systems. From routine maintenance to forensic-grade data eradication.
 
@@ -58,20 +58,8 @@ chmod +x disk_cleaner.py
 # Execution with elevated privileges
 sudo python3 disk_cleaner.py
 ```
-Prerequisites
-Python 3.6+ runtime environment
-Linux kernel compatibility
-Root privilege escalation capabilities
-Core system utilities: dd, rm, shred, sync
 
-Critical Notices
-EXERCISE EXTREME OPERATIONAL CAUTION!
-
-Protocols 4-11 involve multiple storage media overwrite cycles with potential NAND flash degradation
-Implement comprehensive data redundancy strategies prior to execution
-Temporal requirements may extend to multiple hours based on storage subsystem characteristics
-Absolute liability disclaimed for data irrevocability or hardware subsystem compromise
-Operational Parameters
+Operational Parameters Notice: Protocols 4-11 employ intensive multi-pass storage media overwrite cycles that may accelerate NAND flash degradation, necessitate comprehensive data redundancy strategies prior to execution, require extended temporal commitments potentially spanning multiple hours depending on storage subsystem characteristics, and absolve all liability for data irrevocability or hardware subsystem compromise.  
 
 # Interactive protocol selection
 ```bash
