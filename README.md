@@ -57,6 +57,7 @@ chmod +x disk_cleaner.py
 
 # Execution with elevated privileges
 sudo python3 disk_cleaner.py
+```
 🛠️ Prerequisites
 Python 3.6+ runtime environment
 
@@ -66,7 +67,7 @@ Root privilege escalation capabilities
 
 Core system utilities: dd, rm, shred, sync
 
-⚠️ Critical Notices
+Critical Notices
 EXERCISE EXTREME OPERATIONAL CAUTION!
 
 Protocols 4-11 involve multiple storage media overwrite cycles with potential NAND flash degradation
@@ -77,7 +78,7 @@ Temporal requirements may extend to multiple hours based on storage subsystem ch
 
 Absolute liability disclaimed for data irrevocability or hardware subsystem compromise
 
-🎯 Operational Parameters
+Operational Parameters
 bash
 # Interactive protocol selection
 sudo python3 disk_cleaner.py
@@ -87,6 +88,3 @@ sudo python3 disk_cleaner.py --protocol 7
 
 🔧 Architectural Overview
 The utility employs low-level block device operations through kernel-space primitives (dd, shred). Implements temporary artifact generation in volatile storage (/tmp) with iterative pattern overwrite and secure deletion. Storage allocation dynamically calibrated to available capacity preventing system instability.
-
-🤝 Collaborative Development
-Technical contributions welcomed. Submit pull requests for algorithmic enhancements or protocol implementations.
