@@ -1,4 +1,4 @@
-<# Pyro Disk Annihilation                                   
+# Pyro Disk Annihilation                                   
 
 Advanced disk sanitation utility implementing multiple data destruction protocols for Linux systems. From routine maintenance to forensic-grade data eradication.
 
