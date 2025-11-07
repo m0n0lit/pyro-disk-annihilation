@@ -2,7 +2,7 @@
 
 Advanced disk sanitation utility implementing multiple data destruction protocols for Linux systems. From routine maintenance to forensic-grade data eradication.
 
-## 🚀 Capabilities
+## Capabilities
 
 - **Multi-protocol sanitization** - 11 distinct data destruction methodologies
 - **Progressive execution monitoring** - Real-time progress metrics with temporal projections
@@ -10,7 +10,7 @@ Advanced disk sanitation utility implementing multiple data destruction protocol
 - **Privilege escalation detection** - Automated root privilege verification
 - **Temporal complexity indicators** - Algorithmic time complexity estimations
 
-## 📋 Sanitization Protocols
+## Sanitization Protocols
 
 ### [1] Standard Purge [***] Fast
 Implements systematic removal of transient data artifacts, package cache repositories, and chronological system journals exceeding 7-day retention. Optimized for operational hygiene.
@@ -45,7 +45,7 @@ Orchestrates 24-pass cryptotemporal algorithm with sequential seed derivation. E
 ### [11] Fractal Recursive Elimination [****] Medium
 Implements 9-pass Mandelbrot-set inspired recursive pattern application. Creates infinite-scale data corruption through mathematical fractal decomposition.
 
-## ⚡ Deployment
+## Deployment
 
 ```bash
 # Repository acquisition
@@ -58,28 +58,21 @@ chmod +x disk_cleaner.py
 # Execution with elevated privileges
 sudo python3 disk_cleaner.py
 ```
-🛠️ Prerequisites
+Prerequisites
 Python 3.6+ runtime environment
-
 Linux kernel compatibility
-
 Root privilege escalation capabilities
-
 Core system utilities: dd, rm, shred, sync
 
 Critical Notices
 EXERCISE EXTREME OPERATIONAL CAUTION!
 
 Protocols 4-11 involve multiple storage media overwrite cycles with potential NAND flash degradation
-
 Implement comprehensive data redundancy strategies prior to execution
-
 Temporal requirements may extend to multiple hours based on storage subsystem characteristics
-
 Absolute liability disclaimed for data irrevocability or hardware subsystem compromise
-
 Operational Parameters
-bash
+
 # Interactive protocol selection
 ```bash
 sudo python3 disk_cleaner.py
