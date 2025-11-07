@@ -1,9 +1,9 @@
 #   ____                        ____  _      __       ___                _ __    _ __      __  _           
-   / __ \__  ___________       / __ \(_)____/ /__    /   |  ____  ____  (_) /_  (_) /___ _/ /_(_)___  ____ 
-  / /_/ / / / / ___/ __ \     / / / / / ___/ //_/   / /| | / __ \/ __ \/ / __ \/ / / __ `/ __/ / __ \/ __ \
- / ____/ /_/ / /  / /_/ /    / /_/ / (__  ) ,<     / ___ |/ / / / / / / / / / / / / /_/ / /_/ / /_/ / / / /
-/_/    \__, /_/   \____/    /_____/_/____/_/|_|   /_/  |_/_/ /_/_/ /_/_/_/ /_/_/_/\__,_/\__/_/\____/_/ /_/ 
-      /____/                                           
+#   / __ \__  ___________       / __ \(_)____/ /__    /   |  ____  ____  (_) /_  (_) /___ _/ /_(_)___  ____ 
+#  / /_/ / / / / ___/ __ \     / / / / / ___/ //_/   / /| | / __ \/ __ \/ / __ \/ / / __ `/ __/ / __ \/ __ \
+# / ____/ /_/ / /  / /_/ /    / /_/ / (__  ) ,<     / ___ |/ / / / / / / / / / / / / /_/ / /_/ / /_/ / / / /
+#/_/    \__, /_/   \____/    /_____/_/____/_/|_|   /_/  |_/_/ /_/_/ /_/_/_/ /_/_/_/\__,_/\__/_/\____/_/ /_/ 
+#      /____/                                           
 
 Advanced disk sanitation utility implementing multiple data destruction protocols for Linux systems. From routine maintenance to forensic-grade data eradication.
 
@@ -86,10 +86,13 @@ Absolute liability disclaimed for data irrevocability or hardware subsystem comp
 Operational Parameters
 bash
 # Interactive protocol selection
+```bash
 sudo python3 disk_cleaner.py
+```
 
 # Direct protocol invocation
+```bash
 sudo python3 disk_cleaner.py --protocol 7
-
-🔧 Architectural Overview
+```
+Architectural Overview
 The utility employs low-level block device operations through kernel-space primitives (dd, shred). Implements temporary artifact generation in volatile storage (/tmp) with iterative pattern overwrite and secure deletion. Storage allocation dynamically calibrated to available capacity preventing system instability.
